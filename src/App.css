@@ -1,0 +1,76 @@
+.App
+{
+
+  background: #00040F;
+  /* //background: linear-gradient(18deg, rgba(116, 71, 251, 0) 0%, #265887 100%); */
+}
+.App ul li
+{
+  list-style-type: none;
+}
+.top-icon
+{
+  
+width: 32px;
+height: 32px;
+left: 135.41px;
+
+}
+.heading
+{
+  
+
+width: 82px;
+height: 32px;
+left: 171.41px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+
+
+color: #FFFFFF;
+
+}
+.details
+{
+  position: absolute;
+  width: 48px;
+  height: 32px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color:white;
+}
+.home
+{
+
+left: 884px;
+
+}
+.aboutUs
+{
+
+left: 988px;
+width:60px;
+}
+.Features
+{
+
+left: 1115.41px;
+
+}
+.Solution
+{
+  
+
+left: 1241.41px;
+
+}
