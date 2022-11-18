@@ -1,6 +1,11 @@
 import "./App.css";
+import Ring  from './assest/ring.png'
 import icon from "./assest/icon.svg";
-// import disicon "./assest/icon.png";
+import disicon from "./assest/disicon.png";
+import Robot from "./assest/robot.png"
+import Next from "./moreDetails/next"
+// import Arrow from './assest/arrow.png'
+
 
 function App() {
   return (
@@ -26,8 +31,14 @@ function App() {
             <div className="row ">
               <div className="col-7 ">
                 <div className="discountOffers ">
-                  <span><img src=""/></span>
-                  <span>20% DISCOUNT FOR 1 MONTH ACCOUNT</span>
+
+                  <span><img src={disicon} className="disIcon"/></span>
+                  <span className="discout-title">20% DISCOUNT FOR 1 MONTH ACCOUNT</span>
+                </div>
+                <div className="getStarted">
+                     <img src={Ring} alt="get started"/>
+                     {/* <span><img src={Arrow}/></span> */}
+                     <p className="getStartedtext">Get Started</p>
                 </div>
                 <div className="title">
                <p>The Next </p> 
@@ -41,7 +52,11 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div className="col-5"></div>
+              <div className="col-5">
+                <div className="robotHand">
+                  <img  src={Robot} alt="robot"/>
+                </div>
+              </div>
             </div>
             <div >
           <ul className="headFooter">
@@ -56,6 +71,9 @@ function App() {
             </div>
           </div>
           
+          <div>
+            <Next/>
+          </div>
         </div>
       </div>
     </>

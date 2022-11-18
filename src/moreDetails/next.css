@@ -1,0 +1,169 @@
+.containerHolder {
+}
+.titleTop {
+  width: 622px;
+  height: 154px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 160%;
+
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
+}
+.shortWrite
+{
+
+width: 570px;
+height: 93px;
+/* left: 135px;
+top: 1291px; */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170%;
+letter-spacing: 0.01em;
+color: rgba(255, 255, 255, 0.7);
+
+}
+.btnGetStarted
+{
+  border: 0px;
+width: 170px;
+height: 64px;
+background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+border-radius: 10px;
+
+}
+.starIcon
+{
+    height:54px;
+}
+.rewards
+{
+    position: absolute;
+width: 81px;
+height: 23px;
+left:950px;
+top:1050px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.rewardExplain{
+    position: absolute;
+width: 366px;
+height: 48px;
+left:949px;
+top:1074px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: rgba(255, 255, 255, 0.7);
+
+}
+.SecuredIcon{
+    position: absolute;
+width: 470px;
+height: 115px;
+left:880px;
+top:1148px;
+background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
+box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+border-radius: 20px;
+}
+
+.SecuredImg{
+ position: absolute;
+width: 64px;
+height: 64px;
+left:10px;
+top:25px;
+
+}
+
+.sendIcon
+{
+    position: absolute;
+width: 64px;
+height:54px;
+left:880px;
+top:1280px;
+}
+.SecuredHeading
+{
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    position: absolute;
+    color: white;
+    left:80px;
+    top:20px;
+}
+.SecuredNote
+{
+    position: absolute;
+width: 366px;
+height: 48px;
+left: 80px;
+top:50px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: rgba(255, 255, 255, 0.7);
+
+}
+.sendTitle
+{
+    position: absolute;
+    width: 158px;
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    left:75px;
+    top:10px;
+    
+}
+.sendNote
+{
+    position: absolute;
+width: 346px;
+height: 48px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: rgba(255, 255, 255, 0.7);
+top:35px;
+left:70px;
+
+}
