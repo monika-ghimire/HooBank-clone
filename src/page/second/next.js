@@ -1,8 +1,8 @@
 import React from "react";
 import "./next.css";
-import Secured from '../assest/Secured.png'
-import send from '../assest/send.png'
-import Star from '../assest/Star.png'
+import Secured from '../../assest/Secured.png'
+import send from '../../assest/send.png'
+import Star from '../../assest/Star.png'
 export default function next() {
   return (
     <>
@@ -26,9 +26,9 @@ export default function next() {
           </div>
             </div>
             <div className="col-5">
-                <div className="starIcon">
-                    <img src={Star} alt="start"/>
-                    <p className="rewards">Rewards</p>
+                <div >
+                    <img src={Star} alt="start" className="starIcon"/>
+                    <span className="rewards">Rewards</span>
                     <p className="rewardExplain">
                     The best credit cards offer
                      some tantalizing combinations of promotions and prizes

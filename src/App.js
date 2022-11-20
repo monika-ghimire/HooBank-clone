@@ -3,25 +3,30 @@ import Ring  from './assest/ring.png'
 import icon from "./assest/icon.svg";
 import disicon from "./assest/disicon.png";
 import Robot from "./assest/robot.png"
-import Next from "./moreDetails/next"
-// import Arrow from './assest/arrow.png'
 
+ import arrow from "./assest/arrow.png"
+import overLayRobot from './assest/overLayRobot.png'
+import Third from './page/third/third'
+import Fourth from './page/fourth/fourth'
+import Five from './page/five/five'
+import Sixth from './page/sixth/sixth'
+import Next from "./page/second/next"
 
 function App() {
   return (
     <>
       <div className="App">
         <div className="container ContainerHolder">
-          <div className="nav">
+            <div className="nav">
             <ul>
               <li>
                 <img src={icon} alt="Your SVG" className="top-icon" />{" "}
-                <span className="heading">
+                <span className="heading-start">
                   Hoo<span className="highLight">Bank</span>
                 </span>
               </li>
               <li className="home details">Home</li>
-              <li className="aboutUs details">AboutUs</li>
+              <li className="aboutUs details">About Us</li>
               <li className="Features details">Features</li>
               <li className="Solution details">Solution</li>
             </ul>
@@ -37,10 +42,11 @@ function App() {
                 </div>
                 <div className="getStarted">
                      <img src={Ring} alt="get started"/>
-                     {/* <span><img src={Arrow}/></span> */}
+                     <img src={arrow} alt="get started" className="arrow-icon"/>
                      <p className="getStartedtext">Get Started</p>
+                    
                 </div>
-                <div className="title">
+                <div className="maintitle">
                <p>The Next </p> 
                 <span className="generation">Generation</span>
                 <p className="titleEnd">Payment Method.</p>
@@ -54,7 +60,11 @@ function App() {
               </div>
               <div className="col-5">
                 <div className="robotHand">
-                  <img  src={Robot} alt="robot"/>
+                  <img  src={Robot} alt="robot" className="robotHandimg"/>
+                  <div className="overLayRobot">
+                  <img src={overLayRobot} alt='hah' />
+                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -70,10 +80,12 @@ function App() {
 
             </div>
           </div>
-          
-          <div>
-            <Next/>
-          </div>
+             <Next/>
+            <Third/>
+            <Fourth/>  
+            <Five/>
+            <Sixth/>
+           
         </div>
       </div>
     </>

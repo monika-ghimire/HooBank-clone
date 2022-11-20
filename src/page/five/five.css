@@ -1,0 +1,105 @@
+.fifth-content
+{
+    margin-top:20%;
+}
+.box-holder
+{
+    margin-top:13%;
+}
+.review-heading
+{
+    width:70%;
+height: 164px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 170%;
+color: #FFFFFF;
+
+}
+.review-heading-title
+{
+    width: 450px;
+height: 64px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 180%;
+letter-spacing: 0.01em;
+color: rgba(255, 255, 255, 0.7);
+margin-top:8%;
+}
+.box
+{
+width:350px;
+height: 395px;
+backdrop-filter: blur(5px);
+border-radius: 20px;
+
+}
+.box-wapper
+{
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+}
+.box p{
+    color: white;
+    margin-left:10%;
+    width: 290px;
+height: 128px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 180%;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-top:3%;
+
+}
+.box img{
+    width: 48px;
+height: 48px;
+margin-left:5%;
+}
+.pole
+{
+    width: 42.6px;
+    height: 27.6px;
+    margin-top:18%;
+    margin-left:20%;
+}
+.user-name
+{
+    color: white;
+    width: 158px;
+height: 32px;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+margin-left:5%;
+color: #FFFFFF;
+}
+.user-postion
+{
+    width: 141px;
+height: 24px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+opacity: 0.5;
+margin-left:23%;
+}
+.footer
+{
+    margin-top:8%;
+    height: 60px;
+    width: 1065.76px;
+    margin-left:8%;
+}
+.footer img{
+    width: 192.25px;
+height: 38.64px;
+}

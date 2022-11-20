@@ -1,5 +1,6 @@
 .App {
   background: #00040f;
+  height: auto;
 }
 .nav {
   position: relative;
@@ -15,7 +16,7 @@
   top: 10px;
   position: absolute;
 }
-.heading {
+.heading-start {
   position: absolute;
   width: 82px;
   height: 23px;
@@ -46,16 +47,18 @@
   top: 20px;
 }
 .home {
-  left: 830px;
+  left:730px;
+  font-family: "Poppins";
 }
 .aboutUs {
-  left:950px;
+  left:850px;
+  width:78px;
 }
 .Features {
-  left:1080.41px;
+  left:980.41px;
 }
 .Solution {
-  left:1190.41px;
+  left:1095.41px;
 }
 
 .contentBody {
@@ -67,7 +70,7 @@
   position: absolute;
 width: 408px;
 height: 40px;
-left: 135px;
+left:120px;
 top: 249px;
 
 background: linear-gradient(125.17deg, #272727 0%, #11101D 100%);
@@ -84,11 +87,11 @@ top:8px;
   position: absolute;
   top:5px;
 }
-.title {
+.maintitle {
   position: absolute;
   width: 670px;
   height: 303px;
-  left: 135.41px;
+color: white;
   top: 280px;
 
   font-family: "Poppins";
@@ -99,8 +102,8 @@ top:8px;
   /* or 101px */
 
   letter-spacing: 0.01em;
-
-  color: #ffffff;
+ 
+  position: absolute;
 }
 .generation {
   position: absolute;
@@ -108,7 +111,7 @@ top:8px;
   top: 75.99px;
   width: 670px;
   height: 101px;
-  font-family: "Poppins";
+  font-family:'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 72px;
@@ -317,11 +320,29 @@ background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0
 -webkit-text-fill-color: transparent;
 
 } 
-.robotHand img
+.robotHandimg
 {
   position: absolute;
   top:110px;
   width:50%;
-  height:95%;
-  left:790px;
+  height:100%;
+  left:675px;
+}
+.overLayRobot{
+position: absolute;
+height:100%;
+width:100%;
+left:600px;
+
+}
+.overLayRobot img
+{
+  position: absolute;
+ bottom:8%;
+}
+.arrow-icon
+{
+  position: absolute;
+ top:36%;
+ left:47%;
 }

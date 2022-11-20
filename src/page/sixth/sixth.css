@@ -1,0 +1,128 @@
+.get-stated-six
+{
+    width: 1170px;
+height:200px;
+background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+backdrop-filter: blur(5px);
+border-radius: 20px;
+
+}
+
+.heading-six
+{
+    width: 670px;
+margin-top:6%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 140%;
+color: #faf7f7;
+margin-left:10%;
+
+
+}
+.title-six
+{
+    width: 445px;
+height: 58px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: 0.01em;
+color: rgba(255, 255, 255, 0.7); 
+margin-left:10%;
+
+
+}
+.started-btn-six
+{
+    width: 170px;
+height: 64px;
+background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+border-radius: 10px;
+margin-left:70%;
+margin-top:5%;
+border: 0px;
+position: absolute;
+
+}
+.footer-six
+{
+    margin-top:15%;
+}
+.mainIcon-six
+{
+    width: 266px;
+height: 72.14px;
+}
+.title-mainIcon
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.7);
+    width: 312px;
+height: 64px;
+margin-top:5%;
+}
+
+.Heading-six-list
+{
+    width: 108px;
+height: 27px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: #FFFFFF;
+
+}
+.footer-six ul li{
+    list-style: none;
+    width: 65px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.7);
+
+}
+.line
+{
+    width: 1170px;
+height:0px;
+width: 1170px;
+height: 0px;
+border: 1px solid #3F3E45;
+}
+.content-end
+{
+    margin-top:5%;
+}
+.endicons-imgs
+{
+    margin-left:78%;
+}
+.content-end span
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: rgba(255, 255, 255, 0.6);
+
+}
+.spantwo
+{
+    margin-left:3%;
+}
