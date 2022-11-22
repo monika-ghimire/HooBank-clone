@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HooBank-clone/static/css/main.d9d077f1.css",
-    "main.js": "/HooBank-clone/static/js/main.36fcdd3a.js",
+    "main.css": "/HooBank-clone/static/css/main.003b8fbb.css",
+    "main.js": "/HooBank-clone/static/js/main.aaa5bf5d.js",
     "static/js/787.28cb0dcd.chunk.js": "/HooBank-clone/static/js/787.28cb0dcd.chunk.js",
     "static/media/robot.png": "/HooBank-clone/static/media/robot.7999e612c64796b6f333.png",
     "static/media/overLayRobot.png": "/HooBank-clone/static/media/overLayRobot.663d3d956133871b6edf.png",
@@ -12,12 +12,12 @@
     "static/media/usertwo.png": "/HooBank-clone/static/media/usertwo.54e0e1a767155ef764ce.png",
     "static/media/icon.svg": "/HooBank-clone/static/media/icon.86b8d6d23df5f3796a0866ae8ff7d9a1.svg",
     "index.html": "/HooBank-clone/index.html",
-    "main.d9d077f1.css.map": "/HooBank-clone/static/css/main.d9d077f1.css.map",
-    "main.36fcdd3a.js.map": "/HooBank-clone/static/js/main.36fcdd3a.js.map",
+    "main.003b8fbb.css.map": "/HooBank-clone/static/css/main.003b8fbb.css.map",
+    "main.aaa5bf5d.js.map": "/HooBank-clone/static/js/main.aaa5bf5d.js.map",
     "787.28cb0dcd.chunk.js.map": "/HooBank-clone/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9d077f1.css",
-    "static/js/main.36fcdd3a.js"
+    "static/css/main.003b8fbb.css",
+    "static/js/main.aaa5bf5d.js"
   ]
 }
