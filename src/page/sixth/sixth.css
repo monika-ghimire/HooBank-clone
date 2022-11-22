@@ -2,20 +2,24 @@
 {
   font-family: 'Open Sans', 'sans-ser';
 }
+.container-end-holder
+{
+    margin-top:20%;
+}
 .get-stated-six
 {
-    width: 1170px;
-height:200px;
+
+height:230px;
 background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
 backdrop-filter: blur(5px);
 border-radius: 20px;
-
+width: 90%;
 }
 
 .heading-six
 {
     width: 670px;
-margin-top:6%;
+margin-top:8%;
 font-family: 'Open Sans', 'sans-ser';
 font-style: normal;
 font-weight: 600;
@@ -88,6 +92,10 @@ text-align: center;
 color: #FFFFFF;
 
 }
+.useful-Links
+{
+    width: 112px;
+}
 .footer-six ul li{
     list-style: none;
     width: 65px;
@@ -101,9 +109,9 @@ color: rgba(255, 255, 255, 0.7);
 }
 .line
 {
-    width: 1170px;
+   
 height:0px;
-width: 1170px;
+width:95%;
 height: 0px;
 border: 1px solid #3F3E45;
 }

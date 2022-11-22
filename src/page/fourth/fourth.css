@@ -4,6 +4,7 @@
 .fourthHolder
 {
     margin-top:20%;
+    position: relative;
 }
 .title-fourth
 {
@@ -14,10 +15,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 48px;
 line-height: 160%;
-/* or 77px */
-
 letter-spacing: 0.01em;
-
 color: #FFFFFF;
 
 }
@@ -27,11 +25,14 @@ color: #FFFFFF;
     font-weight: 400;
     font-size: 18px;
     line-height: 170%;
-    /* or 31px */
     letter-spacing: 0.01em;
     color: rgba(255, 255, 255, 0.7);
     width: 500px;
 height: 93px;
+}
+.leftScan-box
+{
+    /* margin-left: 2%; */
 }
 .getStarted-btn
 {
@@ -43,38 +44,41 @@ border: 0px;
 }
 .ringOne
 {
-    width:300.29px;
-height: 300.29px;
-margin-left:50%;
+    width:380.29px;
+height:380.29px;
+margin-left: 5%;
 position: relative;
+
 }
 .ringS
 {
-    width:193.29px;
-height: 193.29px;
-left:76%;
-margin-top:50px;
+    width:263.29px;
+height: 263.29px;
 position: absolute;
+left:73.50%;
+margin-top:3%;
 }
 .ringT
 {
-    position: absolute;
-    width:93.29px;
- height:93.29px;
- left:79.10%;
- margin-top:95px;
+    width:123.29px;
+ height:123.29px;
+ left:76.50%;
+margin-top:7%;
+ position: absolute;
+
 }
 .scanBox
 {
-position: absolute;
-width:151px;
-height:128px;
-left:900px;
-top:2170.88px;
+
+width:155px;
+height:130px;
 background: linear-gradient(121.51deg, #FFFFFF -264.89%, #6D6D6D -77.96%, #11101D 80.93%);
 backdrop-filter: blur(5px);
-
-border-radius: 20px;
+position: absolute;
+margin-top:6%;
+border-radius: 10px;
+margin-right:3%;
+z-index: 1;
 }
 .scanheading
 {
@@ -84,6 +88,7 @@ border-radius: 20px;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
+
 line-height: 160%;
 text-align: center;
 letter-spacing: 0.01em;
@@ -115,24 +120,24 @@ margin-left:5%;
 }
 .analysis
 {
-   position: absolute;
-  top:345%;
-  height:30%;
-  height:30%;
-   margin-left:31%;
-
+margin-left:15%;
+z-index: 1;
+ 
+ position: absolute;
+  
 }
+
 .paymentMethod
 {
-    
-position: absolute;
+    position: absolute;
 width: 262px;
 height: 110px;
-left:980px;
-top: 2340.88px;
 background: linear-gradient(140.32deg, #FFFFFF -277.16%, #14101D 66.28%);
 backdrop-filter: blur(5px);
 border-radius: 20px;
+margin-top:18%;
+margin-left:5%;
+z-index: 1;
 
 }
 .payment-method-icons img

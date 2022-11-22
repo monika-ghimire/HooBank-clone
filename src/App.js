@@ -10,13 +10,13 @@ function App() {
   return (
     <>
       <div className="App">
-        <div className="container ContainerHolder">
+        <div className=" ContainerHolder">
            <Frist/>
-             <Next/>
-            <Third/>
-            <Fourth/>  
-            <Five/>
-            <Sixth/>
+           <Next/>
+           <Third/>
+           <Fourth/>
+           <Five/>
+           <Sixth/>
            
         </div>
       </div>

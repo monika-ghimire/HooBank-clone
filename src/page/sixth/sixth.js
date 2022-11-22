@@ -5,7 +5,7 @@ import endicons from '../../assest/endicons.png'
 export default function sixth() {
   return (
     <>
-      <div className="container">
+      <div className="container-end-holder">
         <div className="get-stated-six">
             <div className="paraHolder">
             <span>
@@ -33,7 +33,7 @@ export default function sixth() {
           </div>
           <div className="col-3  box-footer-six">
             <div>
-              <p className="Heading-six-list">Usefull Links</p>
+              <p className="Heading-six-list useful-Links">Usefull Links</p>
               <ul>
                 <li>Content</li>
                 <li>How it Works</li>

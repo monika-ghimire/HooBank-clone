@@ -10,9 +10,9 @@ import Shopify from '../../assest/Shopify.png'
 export default function fourt() {
   return (
     <>
-    <div className='container fourthHolder'>
+    <div className=' fourthHolder'>
     <div className='row '>
-      <div className='col-6'>
+      <div className='col-7'>
         <div>
         <p className='title-fourth'>
           Find a better card deal in few easy steps.
@@ -23,14 +23,8 @@ export default function fourt() {
         </div>
          
       </div>
-      <div className='col-6'>
-           
-           <div>
-            <img src={ringOne} alt='ring one ' className='ringOne'/>
-            <img src={ringOne} alt='ring one ' className='ringS'/>
-            <img src={ringOne} alt='ring one ' className='ringT'/>
-           </div>
-           <div className='scanBox'>
+      {/* <div className='col-5 leftScan-box'>
+      <div className='scanBox'>
             <img src={Scan} className='scan-icon'/>
             <p className='scanheading'>
             Scan Credit Cards
@@ -42,6 +36,7 @@ export default function fourt() {
            <div>
             <img src={analysis} className='analysis'/>
            </div>
+           <div>
            <div className='paymentMethod'>
             <p className='payment-method-heading'>Payment Method</p>
             <div className='payment-method-icons'>
@@ -52,8 +47,16 @@ export default function fourt() {
             </div>
 
            </div>
+            <img src={ringOne} alt='ring one ' className='ringOne'/>
+            <img src={ringOne} alt='ring one ' className='ringS'/>
+            <img src={ringOne} alt='ring one ' className='ringT'/>
+             
+           </div>
            
-      </div>
+           
+         
+           
+      </div> */}
 
     </div>
     </div>

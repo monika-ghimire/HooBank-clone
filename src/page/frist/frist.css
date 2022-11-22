@@ -1,368 +1,336 @@
 * {
-    font-family: "Open Sans", "sans-ser";
-  }
+  font-family: "Open Sans", "sans-ser";
+  margin: 0px;
+}
+
+.containerHolder {
+  background-color: black;
+}
+
+.top-icon {
+  width: 32px;
+  height: 32px;
+  left: 2%;
+  top: 10px;
+}
+
+.heading-start {
+  width: 82px;
+  height: 23px;
+  font-family: "Open Sans", "sans-ser";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.highLight {
+  color: #5ce1e6;
+}
+
+.details {
+  width: 58px;
+  height: 32px;
+  font-family: "Open Sans", "sans-ser";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: white;
+  top: 20px;
+}
+
+.home {
+  font-family: "Open Sans", "sans-ser";
+}
+
+.aboutUs {
+  width: 78px;
+} 
+
+.contentBody {
+  width: 100%;
+  height: 1000px;
+}
+
+.discountOffers {
+  max-width: 408px;
+  max-height: 40px;
+  margin-top:10%;
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  border-radius: 10px;
+}
+
+.discout-title {
+
+  color: #ffffff;
+}
+
+.disIcon {
+  margin-top: 1%;
+  top: 5px;
+}
+
+.maintitle {
   
-  .App {
-    background: #00040f;
-    height: auto;
-  }
+  max-width: 670px;
+  max-height: 303px;
+  color: white;
+  font-family: "Open Sans", "sans-ser";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+
+
+}
+
+.generation {
+  /* position: absolute; */
+  left: 0px;
+  top: 75.99px;
+  width: 670px;
+  height: 101px;
+  font-family: "Open Sans", "sans-ser";
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 140%;
+  /* identical to box height, or 101px */
+  letter-spacing: 0.01em;
+  background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #def9fa 0.89%,
+      #bef3f5 17.23%,
+      #9dedf0 42.04%,
+      #7de7eb 55.12%,
+      #5ce1e6 71.54%,
+      #33bbcf 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.titleEnd {
+  /* position: absolute; */
+  top: 145.99px;
+}
+
+.explainShorts {
+  /* position: absolute; */
+  width:470px;
+  font-family: "Open Sans", "sans-ser";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top:14%;
+}
+.rightContent
+{
+margin-top:5%;
+}
+
+.headFooter {
+  color: white;
+  margin-top:5%;
+}
+
+.headFooter li {
+  list-style: none;
+}
+
+.userActive {
+
+  width: 126.09px;
+  height: 52.82px;
+  font-family: "Open Sans", "sans-ser";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40.8925px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.active {
+
+  width: 145.68px;
+  height: 27.26px;
+  font-family: "Open Sans", "sans-ser";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.4463px;
+  line-height: 130%;
+  text-transform: uppercase;
+  background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #def9fa 0.89%,
+      #bef3f5 17.23%,
+      #9dedf0 42.04%,
+      #7de7eb 55.12%,
+      #5ce1e6 71.54%,
+      #33bbcf 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.copmpanyActive {
+ 
+  width: 97.12px;
+
+  top: 880px;
+  font-family: "Open Sans", "sans-ser";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40.8925px;
+  line-height: 130%;
+  /* or 53px */
+
+  color: #ffffff;
+}
+
+.copmpany {
+
+  width: 219.8px;
+  height: 27.26px;
+
+
+  font-family: "Open Sans", "sans-ser";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.4463px;
+  line-height: 130%;
+  /* or 27px */
+
+  text-transform: uppercase;
+
+  background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #def9fa 0.89%,
+      #bef3f5 17.23%,
+      #9dedf0 42.04%,
+      #7de7eb 55.12%,
+      #5ce1e6 71.54%,
+      #33bbcf 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.transactionActive {
+
+  width: 158.46px;
+  height: 52.82px;
   
-  .nav {
-    position: relative;
-  }
-  
-  .nav ul li {
-    list-style-type: none;
-    height: 40px;
-  }
-  
-  .top-icon {
-    width: 32px;
-    height: 32px;
-    left: 2%;
-    top: 10px;
+
+  font-family: "Open Sans", "sans-ser";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40.8925px;
+  line-height: 130%;
+  /* or 53px */
+
+  color: #ffffff;
+}
+
+.transaction {
+
+  width: 149.01px;
+  height: 27.26px;
+  font-family: "Open Sans", "sans-ser";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.4463px;
+  line-height: 130%;
+  text-transform: uppercase;
+  background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #def9fa 0.89%,
+      #bef3f5 17.23%,
+      #9dedf0 42.04%,
+      #7de7eb 55.12%,
+      #5ce1e6 71.54%,
+      #33bbcf 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.arrow-icon {
     position: absolute;
+   margin-top:30%;
+   margin-left:35%;
   }
   
-  .heading-start {
-    position: absolute;
-    width: 82px;
-    height: 23px;
-    left: 5%;
-    top: 15px;
-    font-family: "Open Sans", "sans-ser";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 130%;
-    /* or 23px */
-  
-    color: #ffffff;
-  }
-  
-  .highLight {
-    color: #5ce1e6;
-  }
-  
-  .details {
-    position: absolute;
-    width: 58px;
-    height: 32px;
-    font-family: "Open Sans", "sans-ser";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 130%;
-    color: white;
-    top: 20px;
-  }
-  
-  .home {
-    left: 730px;
-    font-family: "Open Sans", "sans-ser";
-  }
-  
-  .aboutUs {
-    left: 850px;
-    width: 78px;
-  }
-  
-  .Features {
-    left: 980.41px;
-  }
-  
-  .Solution {
-    left: 1095.41px;
-  }
-  
-  .contentBody {
-    width: 100%;
-    height: 1000px;
-  }
-  
-  .discountOffers {
-    width: 408px;
-    height: 40px;
-    margin-top: 30%;
-  
-    background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
-    border-radius: 10px;
-  }
-  
-  .discout-title {
-    margin-top:1%;
-    color: #ffffff;
-  }
-  
-  .disIcon {
-    margin-top:1%;
-    top: 5px;
-  }
-  
-  .maintitle {
-    position: absolute;
-    width: 670px;
-    height: 303px;
-    color: white;
-    top: 280px;
-    font-family: "Open Sans", "sans-ser";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 72px;
-    line-height: 140%;
-    letter-spacing: 0.01em;
-  
-    position: absolute;
-  }
-  
-  .generation {
-    position: absolute;
-    left: 0px;
-    top: 75.99px;
-    width: 670px;
-    height: 101px;
-    font-family: 'Open Sans', 'sans-ser';
-  
-    font-style: normal;
-    font-weight: 600;
-    font-size: 72px;
-    line-height: 140%;
-    /* identical to box height, or 101px */
-    letter-spacing: 0.01em;
-    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
-        #def9fa 0.89%,
-        #bef3f5 17.23%,
-        #9dedf0 42.04%,
-        #7de7eb 55.12%,
-        #5ce1e6 71.54%,
-        #33bbcf 100%)
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
-    ;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-  }
-  
-  .titleEnd {
-    position: absolute;
-    top: 145.99px;
-  }
-  
-  .explainShorts {
-    position: absolute;
-    width: 370px;
-    height: 93px;
-    left: 136px;
-    top: 600px;
-    font-family: "Open Sans", "sans-ser";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 170%;
-    color: rgba(255, 255, 255, 0.7);
-  }
-  
-  .headFooter {
-    color: white;
-  }
-  
-  .headFooter li {
-    list-style: none;
-  }
-  
-  .userActive {
-    position: absolute;
-    width: 126.09px;
-    height: 52.82px;
-    left: 153.19px;
-    top: 880px;
-  
-    font-family: "Open Sans", "sans-ser";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40.8925px;
-    line-height: 130%;
-    color: #ffffff;
-  }
-  
-  .active {
-    position: absolute;
-    width: 145.68px;
-    height: 27.26px;
-    left: 270.84px;
-    top: 900.63px;
-    font-family: "Open Sans", "sans-ser";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20.4463px;
-    line-height: 130%;
-    text-transform: uppercase;
-    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
-        #def9fa 0.89%,
-        #bef3f5 17.23%,
-        #9dedf0 42.04%,
-        #7de7eb 55.12%,
-        #5ce1e6 71.54%,
-        #33bbcf 100%)
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
-    ;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-  }
-  
-  .copmpanyActive {
-    position: absolute;
-    width: 97.12px;
-    height: 52.82px;
-    left: 580.45px;
-    top: 880px;
-    font-family: "Open Sans", "sans-ser";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40.8925px;
-    line-height: 130%;
-    /* or 53px */
-  
-    color: #ffffff;
-  }
-  
-  .copmpany {
-    position: absolute;
-    width: 219.8px;
-    height: 27.26px;
-    left: 675.13px;
-    top: 897.63px;
-  
-    font-family: "Open Sans", "sans-ser";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20.4463px;
-    line-height: 130%;
-    /* or 27px */
-  
-    text-transform: uppercase;
-  
-    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
-        #def9fa 0.89%,
-        #bef3f5 17.23%,
-        #9dedf0 42.04%,
-        #7de7eb 55.12%,
-        #5ce1e6 71.54%,
-        #33bbcf 100%)
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
-    ;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-  }
-  
-  .transactionActive {
-    position: absolute;
-    width: 158.46px;
-    height: 52.82px;
-    left: 979.56px;
-    top: 880px;
-  
-    font-family: "Open Sans", "sans-ser";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40.8925px;
-    line-height: 130%;
-    /* or 53px */
-  
-    color: #ffffff;
-  }
-  
-  .transaction {
-    position: absolute;
-    width: 149.01px;
-    height: 27.26px;
-    left: 1100.99px;
-    top: 893.63px;
-  
-    font-family: "Open Sans", "sans-ser";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20.4463px;
-    line-height: 130%;
-  
-    text-transform: uppercase;
-  
-    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
-        #def9fa 0.89%,
-        #bef3f5 17.23%,
-        #9dedf0 42.04%,
-        #7de7eb 55.12%,
-        #5ce1e6 71.54%,
-        #33bbcf 100%)
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
-    ;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-  }
-  
-  .getStarted {
-   margin-left:67%;
-    width: 140px;
-    height: 140px;
-    left: 570px;
-    top: 280px;
-  }
-  
-  .getStartedtext {
-    color: white;
-    position: absolute;
-    top:56%;
-    left:44%;
-    width:60px;
-    height: 53.67px;
-    font-family: 'Open Sans', 'sans-ser';
-  
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 130%;
-    background-clip: text;
-    text-fill-color: transparent;
-    background: linear-gradient(157.81deg,
-        #def9fa -43.27%,
-        #bef3f5 -21.24%,
-        #9dedf0 12.19%,
-        #7de7eb 29.82%,
-        #5ce1e6 51.94%,
-        #33bbcf 90.29%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .robotHandimg {
-    position: absolute;
-    top: 110px;
-    width: 50%;
-    height: 100%;
-    left: 675px;
-  }
-  
-  .overLayRobot {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 600px;
-  }
-  
-  .overLayRobot img {
-    position: absolute;
-    bottom: 8%;
-  }
-  
-  .arrow-icon {
+.getStarted {
+   
+  max-width: 140px;
+  max-height: 140px;
+position: absolute;
+margin-left:30%;
+margin-top:10%;
+ 
+}
+
+.getStartedtext {
+  color: white;
   position: absolute;
-    top:55%;
-    left:46%;
-  }
+  margin-top:30%;
+  margin-left:15%;
+  width: 65px;
+  height: auto;
+  font-family: "Open Sans", "sans-ser";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  background-clip: text;
+  text-fill-color: transparent;
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.robotHandimg {
+  /* position: absolute; */
+margin-top:5%;
+  width:100%;
+  height:auto;
+  z-index: 1;
+}
+
+
+.overLayRobot img {
+  position: absolute;
+z-index:0;
+
+}
+.name
+{
+  margin-left:2%;
+}
+

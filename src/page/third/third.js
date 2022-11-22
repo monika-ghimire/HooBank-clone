@@ -11,15 +11,21 @@ export default function third() {
     <div className=' thirdHolder'>
      <div className='row '>
         <div className='col-8'>
-        
+           
             <div>
+           
                 <img src={smallBox} alt='hee' className='topBox'/>
+                
                 <img src={bigBox} alt='hee' className='bigBox'/>
-            </div>
+                <span>
             <div className='greatPaymentNoteHolder'>
                 <img src={checkIcon} alt='check icons' className='checkIcon'/>
                    <span className='greatPaymentNoteHolder-title'>Great! Your Payment is succesfully.</span>
              </div>
+            </span>
+            </div>
+            
+            
         </div>
         <div className='col-4'>
             <div  className='titleHolder'>

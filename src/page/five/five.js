@@ -12,7 +12,7 @@ import airbnb from '../../assest/airbnb.png'
 export default function five() {
   return (
     <>
-      <div className="container fifth-content">
+      <div className=" fifth-content">
         <div className="row ">
           <div className="col-6">
             <p className="review-heading">What people are saying about us</p>
