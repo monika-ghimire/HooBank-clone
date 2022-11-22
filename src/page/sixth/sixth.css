@@ -1,3 +1,7 @@
+*
+{
+  font-family: 'Open Sans', 'sans-ser';
+}
 .get-stated-six
 {
     width: 1170px;
@@ -12,7 +16,7 @@ border-radius: 20px;
 {
     width: 670px;
 margin-top:6%;
-font-family: 'Poppins';
+font-family: 'Open Sans', 'sans-ser';
 font-style: normal;
 font-weight: 600;
 font-size: 48px;
@@ -26,7 +30,7 @@ margin-left:10%;
 {
     width: 445px;
 height: 58px;
-font-family: 'Poppins';
+font-family: 'Open Sans', 'sans-ser';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -60,7 +64,7 @@ height: 72.14px;
 }
 .title-mainIcon
 {
-    font-family: 'Poppins';
+    font-family: 'Open Sans', 'sans-ser';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -75,7 +79,7 @@ margin-top:5%;
 {
     width: 108px;
 height: 27px;
-font-family: 'Poppins';
+font-family: 'Open Sans', 'sans-ser';
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -87,7 +91,7 @@ color: #FFFFFF;
 .footer-six ul li{
     list-style: none;
     width: 65px;
-font-family: 'Poppins';
+font-family: 'Open Sans', 'sans-ser';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -113,7 +117,7 @@ border: 1px solid #3F3E45;
 }
 .content-end span
 {
-    font-family: 'Poppins';
+    font-family: 'Open Sans', 'sans-ser';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;

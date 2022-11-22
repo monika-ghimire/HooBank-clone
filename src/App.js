@@ -3,7 +3,6 @@ import Ring  from './assest/ring.png'
 import icon from "./assest/icon.svg";
 import disicon from "./assest/disicon.png";
 import Robot from "./assest/robot.png"
-
  import arrow from "./assest/arrow.png"
 import overLayRobot from './assest/overLayRobot.png'
 import Third from './page/third/third'
@@ -35,7 +34,7 @@ function App() {
           <div className="contentBody">
             <div className="row ">
               <div className="col-7 ">
-                <div className="discountOffers ">
+                <div className="discountOffers">
 
                   <span><img src={disicon} className="disIcon"/></span>
                   <span className="discout-title">20% DISCOUNT FOR 1 MONTH ACCOUNT</span>
@@ -58,7 +57,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div className="col-5">
+              <div className="col-md-5">
                 <div className="robotHand">
                   <img  src={Robot} alt="robot" className="robotHandimg"/>
                   <div className="overLayRobot">

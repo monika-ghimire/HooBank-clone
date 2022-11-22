@@ -1,28 +1,36 @@
+* {
+  font-family: "Open Sans", "sans-ser";
+}
+
 .App {
   background: #00040f;
   height: auto;
 }
+
 .nav {
   position: relative;
 }
+
 .nav ul li {
   list-style-type: none;
   height: 40px;
 }
+
 .top-icon {
   width: 32px;
   height: 32px;
-  left:2%;
+  left: 2%;
   top: 10px;
   position: absolute;
 }
+
 .heading-start {
   position: absolute;
   width: 82px;
   height: 23px;
-  left:5%;
+  left: 5%;
   top: 15px;
-  font-family: "Poppins";
+  font-family: "Open Sans", "sans-ser";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -31,14 +39,16 @@
 
   color: #ffffff;
 }
+
 .highLight {
   color: #5ce1e6;
 }
+
 .details {
   position: absolute;
   width: 58px;
   height: 32px;
-  font-family: "Poppins";
+  font-family: "Open Sans", "sans-ser";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -46,116 +56,121 @@
   color: white;
   top: 20px;
 }
+
 .home {
-  left:730px;
-  font-family: "Poppins";
+  left: 730px;
+  font-family: "Open Sans", "sans-ser";
 }
+
 .aboutUs {
-  left:850px;
-  width:78px;
+  left: 850px;
+  width: 78px;
 }
+
 .Features {
-  left:980.41px;
+  left: 980.41px;
 }
+
 .Solution {
-  left:1095.41px;
+  left: 1095.41px;
 }
 
 .contentBody {
   width: 100%;
   height: 1000px;
 }
-.discountOffers
-{
-  position: absolute;
-width: 408px;
-height: 40px;
-left:120px;
-top: 249px;
 
-background: linear-gradient(125.17deg, #272727 0%, #11101D 100%);
-border-radius: 10px;
+.discountOffers {
+  width: 408px;
+  height: 40px;
+  margin-top: 30%;
+
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  border-radius: 10px;
 }
+
 .discout-title {
- position: absolute;
-  left:40px;
-top:8px;
-  color: #ffffff; 
+  margin-top:1%;
+  color: #ffffff;
 }
-.disIcon
-{
-  position: absolute;
-  top:5px;
+
+.disIcon {
+  margin-top:1%;
+  top: 5px;
 }
+
 .maintitle {
   position: absolute;
   width: 670px;
   height: 303px;
-color: white;
+  color: white;
   top: 280px;
-
-  font-family: "Poppins";
+  font-family: "Open Sans", "sans-ser";
   font-style: normal;
   font-weight: 600;
   font-size: 72px;
   line-height: 140%;
-  /* or 101px */
-
   letter-spacing: 0.01em;
- 
+
   position: absolute;
 }
+
 .generation {
   position: absolute;
   left: 0px;
   top: 75.99px;
   width: 670px;
   height: 101px;
-  font-family:'Poppins';
+  font-family: 'Open Sans', 'sans-ser';
+
   font-style: normal;
   font-weight: 600;
   font-size: 72px;
   line-height: 140%;
   /* identical to box height, or 101px */
   letter-spacing: 0.01em;
-  background: radial-gradient(
-      64.18% 64.18% at 71.16% 35.69%,
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
       #def9fa 0.89%,
       #bef3f5 17.23%,
       #9dedf0 42.04%,
       #7de7eb 55.12%,
       #5ce1e6 71.54%,
-      #33bbcf 100%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      #33bbcf 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
 }
+
 .titleEnd {
   position: absolute;
   top: 145.99px;
 }
+
 .explainShorts {
   position: absolute;
   width: 370px;
   height: 93px;
   left: 136px;
   top: 600px;
-  font-family: "Poppins";
+  font-family: "Open Sans", "sans-ser";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 170%;
   color: rgba(255, 255, 255, 0.7);
 }
+
 .headFooter {
   color: white;
 }
+
 .headFooter li {
   list-style: none;
 }
+
 .userActive {
   position: absolute;
   width: 126.09px;
@@ -163,7 +178,7 @@ color: white;
   left: 153.19px;
   top: 880px;
 
-  font-family: "Poppins";
+  font-family: "Open Sans", "sans-ser";
   font-style: normal;
   font-weight: 600;
   font-size: 40.8925px;
@@ -177,22 +192,21 @@ color: white;
   height: 27.26px;
   left: 270.84px;
   top: 900.63px;
-  font-family: "Poppins";
+  font-family: "Open Sans", "sans-ser";
   font-style: normal;
   font-weight: 400;
   font-size: 20.4463px;
   line-height: 130%;
   text-transform: uppercase;
-  background: radial-gradient(
-      64.18% 64.18% at 71.16% 35.69%,
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
       #def9fa 0.89%,
       #bef3f5 17.23%,
       #9dedf0 42.04%,
       #7de7eb 55.12%,
       #5ce1e6 71.54%,
-      #33bbcf 100%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      #33bbcf 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -205,7 +219,7 @@ color: white;
   height: 52.82px;
   left: 580.45px;
   top: 880px;
-  font-family: "Poppins";
+  font-family: "Open Sans", "sans-ser";
   font-style: normal;
   font-weight: 600;
   font-size: 40.8925px;
@@ -214,14 +228,15 @@ color: white;
 
   color: #ffffff;
 }
+
 .copmpany {
   position: absolute;
   width: 219.8px;
   height: 27.26px;
-  left:675.13px;
+  left: 675.13px;
   top: 897.63px;
 
-  font-family: "Poppins";
+  font-family: "Open Sans", "sans-ser";
   font-style: normal;
   font-weight: 400;
   font-size: 20.4463px;
@@ -230,21 +245,21 @@ color: white;
 
   text-transform: uppercase;
 
-  background: radial-gradient(
-      64.18% 64.18% at 71.16% 35.69%,
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
       #def9fa 0.89%,
       #bef3f5 17.23%,
       #9dedf0 42.04%,
       #7de7eb 55.12%,
       #5ce1e6 71.54%,
-      #33bbcf 100%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      #33bbcf 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
 }
+
 .transactionActive {
   position: absolute;
   width: 158.46px;
@@ -252,7 +267,7 @@ color: white;
   left: 979.56px;
   top: 880px;
 
-  font-family: "Poppins";
+  font-family: "Open Sans", "sans-ser";
   font-style: normal;
   font-weight: 600;
   font-size: 40.8925px;
@@ -261,14 +276,15 @@ color: white;
 
   color: #ffffff;
 }
+
 .transaction {
   position: absolute;
-  width:149.01px;
+  width: 149.01px;
   height: 27.26px;
   left: 1100.99px;
   top: 893.63px;
 
-  font-family: "Poppins";
+  font-family: "Open Sans", "sans-ser";
   font-style: normal;
   font-weight: 400;
   font-size: 20.4463px;
@@ -276,73 +292,77 @@ color: white;
 
   text-transform: uppercase;
 
-  background: radial-gradient(
-      64.18% 64.18% at 71.16% 35.69%,
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
       #def9fa 0.89%,
       #bef3f5 17.23%,
       #9dedf0 42.04%,
       #7de7eb 55.12%,
       #5ce1e6 71.54%,
-      #33bbcf 100%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      #33bbcf 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
 }
+
 .getStarted {
-  position: absolute;
+ margin-left:67%;
   width: 140px;
   height: 140px;
-  left:570px;
+  left: 570px;
   top: 280px;
 }
 
+.getStartedtext {
+  color: white;
+  position: absolute;
+  top:56%;
+  left:44%;
+  width:60px;
+  height: 53.67px;
+  font-family: 'Open Sans', 'sans-ser';
 
-.getStartedtext
-{
-color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  background-clip: text;
+  text-fill-color: transparent;
+  background: linear-gradient(157.81deg,
+      #def9fa -43.27%,
+      #bef3f5 -21.24%,
+      #9dedf0 12.19%,
+      #7de7eb 29.82%,
+      #5ce1e6 51.94%,
+      #33bbcf 90.29%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.robotHandimg {
+  position: absolute;
+  top: 110px;
+  width: 50%;
+  height: 100%;
+  left: 675px;
+}
+
+.overLayRobot {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 600px;
+}
+
+.overLayRobot img {
+  position: absolute;
+  bottom: 8%;
+}
+
+.arrow-icon {
 position: absolute;
-top:52.17px;
-left:38.5px;
-width:58px;
-height: 53.67px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 130%;
-background-clip: text;
-text-fill-color: transparent;
-background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%); 
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
-} 
-.robotHandimg
-{
-  position: absolute;
-  top:110px;
-  width:50%;
-  height:100%;
-  left:675px;
-}
-.overLayRobot{
-position: absolute;
-height:100%;
-width:100%;
-left:600px;
-
-}
-.overLayRobot img
-{
-  position: absolute;
- bottom:8%;
-}
-.arrow-icon
-{
-  position: absolute;
- top:36%;
- left:47%;
+  top:55%;
+  left:46%;
 }

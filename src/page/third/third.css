@@ -1,4 +1,7 @@
-
+*
+{
+  font-family: 'Open Sans', 'sans-ser';
+}
 .titleHolder
 {
     margin-top:35%;
@@ -11,7 +14,7 @@ width: 470px;
 height: 154px;
 left: 835px;
 color:white;
-font-family: 'Poppins';
+font-family: 'Open Sans', 'sans-ser';
 font-style: normal;
 font-weight: 600px;
 font-size: 48px;
