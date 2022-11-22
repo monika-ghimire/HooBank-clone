@@ -10,7 +10,7 @@ export default function third() {
     <>
     <div className=' thirdHolder'>
      <div className='row '>
-        <div className='col-8'>
+        <div className='col-7'>
            
             <div>
            
@@ -27,7 +27,7 @@ export default function third() {
             
             
         </div>
-        <div className='col-4'>
+        <div className='col-5'>
             <div  className='titleHolder'>
             <p className='headInUse'>Easily control your 
                billing & invoicing.
