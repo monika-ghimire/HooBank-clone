@@ -1,81 +1,47 @@
 * {
   font-family: "Open Sans", "sans-ser";
-  margin: 0px;
-}
 
-.containerHolder {
-  background-color: black;
-}
-
-.top-icon {
-  width: 32px;
-  height: 32px;
-  left: 2%;
-  top: 10px;
 }
 
 .heading-start {
-  width: 82px;
-  height: 23px;
   font-family: "Open Sans", "sans-ser";
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 130%;
   color: #ffffff;
 }
-
 .highLight {
   color: #5ce1e6;
 }
 
 .details {
-  width: 58px;
-  height: 32px;
+  width: auto;
   font-family: "Open Sans", "sans-ser";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 130%;
   color: white;
-  top: 20px;
 }
 
-.home {
-  font-family: "Open Sans", "sans-ser";
-}
 
-.aboutUs {
-  width: 78px;
-} 
 
 .contentBody {
-  width: 100%;
-  height: 1000px;
+  width:auto;
+
 }
 
 .discountOffers {
   max-width: 408px;
-  max-height: 40px;
+  max-height:auto;
   margin-top:10%;
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
   border-radius: 10px;
-}
-
-.discout-title {
-
   color: #ffffff;
 }
 
+
 .disIcon {
   margin-top: 1%;
-  top: 5px;
 }
 
 .maintitle {
-  
-  max-width: 670px;
-  max-height: 303px;
   color: white;
   font-family: "Open Sans", "sans-ser";
   font-style: normal;
@@ -84,22 +50,15 @@
   line-height: 140%;
   letter-spacing: 0.01em;
 
-
 }
 
 .generation {
-  /* position: absolute; */
-  left: 0px;
-  top: 75.99px;
-  width: 670px;
-  height: 101px;
   font-family: "Open Sans", "sans-ser";
-
   font-style: normal;
   font-weight: 600;
   font-size: 72px;
   line-height: 140%;
-  /* identical to box height, or 101px */
+ 
   letter-spacing: 0.01em;
   background: radial-gradient(
       64.18% 64.18% at 71.16% 35.69%,
@@ -109,29 +68,26 @@
       #7de7eb 55.12%,
       #5ce1e6 71.54%,
       #33bbcf 100%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  background-clip: text; 
 }
 
 .titleEnd {
-  /* position: absolute; */
-  top: 145.99px;
+width:800px;
 }
 
 .explainShorts {
-  /* position: absolute; */
-  width:470px;
+ 
   font-family: "Open Sans", "sans-ser";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 170%;
   color: rgba(255, 255, 255, 0.7);
-  margin-top:14%;
+  margin-top:10%;
+  width:auto;
 }
 .rightContent
 {
@@ -140,7 +96,7 @@ margin-top:5%;
 
 .headFooter {
   color: white;
-  margin-top:5%;
+  margin-top:5%; 
 }
 
 .headFooter li {
@@ -181,8 +137,7 @@ margin-top:5%;
     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  background-clip: text; 
 }
 
 .copmpanyActive {
@@ -227,8 +182,7 @@ margin-top:5%;
     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  background-clip: text; 
 }
 
 .transactionActive {
@@ -269,39 +223,31 @@ margin-top:5%;
     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  background-clip: text; 
 }
 .arrow-icon {
     position: absolute;
-   margin-top:30%;
-   margin-left:35%;
+    top:30%;
+    left:20%;
+ 
   }
   
 .getStarted {
-   
-  max-width: 140px;
-  max-height: 140px;
-position: absolute;
-margin-left:30%;
-margin-top:10%;
  
+ margin-top:30%;
+  position: relative;
 }
 
 .getStartedtext {
   color: white;
-  position: absolute;
-  margin-top:30%;
-  margin-left:15%;
+ 
   width: 65px;
-  height: auto;
   font-family: "Open Sans", "sans-ser";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 130%;
-  background-clip: text;
-  text-fill-color: transparent;
+  background-clip: text; 
   background: linear-gradient(
     157.81deg,
     #def9fa -43.27%,
@@ -313,17 +259,26 @@ margin-top:10%;
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+position: absolute;
+top:35%;
+left:10%;
+}
+.ring-get-started
+{
+   
 }
 
 .robotHandimg {
-  /* position: absolute; */
 margin-top:5%;
   width:100%;
   height:auto;
   z-index: 1;
 }
 
-
+.navHolder
+{
+    padding-top:3%;
+}
 .overLayRobot img {
   position: absolute;
 z-index:0;
