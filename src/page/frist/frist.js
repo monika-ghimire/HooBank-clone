@@ -53,13 +53,11 @@ export default function frist() {
                                         <p className="titleEnd">Payment Method.</p>
                                     </div>
                                     <div className="explainShorts">
-                                        <p>
-                                            Our team of experts uses a methodology to identify
-                                             <br/>
-                                            the credit cards most likely to fit your needs.
-                                             <br/> We examine annual
-                                            percentage rates, annual fees.
-                                        </p>
+                                      
+                                         <p> Our team of experts uses a methodology to identify</p>
+                                         <p> the credit cards most likely to fit your needs.</p>
+                                        <p> We examine annual percentage rates, annual fees.</p> 
+                                    
                                     </div>
                                 </div>
                                 <div className="col-md-5">

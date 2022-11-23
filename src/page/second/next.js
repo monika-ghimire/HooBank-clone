@@ -8,7 +8,7 @@ export default function next() {
     <>
       <div className="containerHolder-second">
         <div className=" row ">
-            <div className="col-md-8">
+            <div className="col-md-7">
             <p className="titleTop">
             You do the business,
             <br/> we’ll handle the money.
@@ -26,7 +26,7 @@ export default function next() {
             </button>
           </div>
             </div>
-            <div className="col-md-4 leftcontainer">
+            <div className="col-md-5 leftcontainer">
                 <div  >
                     <span><img src={Star} alt="start" className="alIcon"/></span>
                     <span className="rewards">Rewards</span>

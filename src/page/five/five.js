@@ -14,10 +14,10 @@ export default function five() {
     <>
       <div className=" fifth-content">
         <div className="row ">
-          <div className="col-6">
+          <div className="col-md-6">
             <p className="review-heading">What people are saying about us</p>
           </div>
-          <div className="col-6">
+          <div className="col-md-6">
             <p className="review-heading-title">
               Everything you need to accept card payments and grow your business
               anywhere on the planet.
@@ -25,7 +25,7 @@ export default function five() {
           </div>
         </div>
         <div className="row box-holder">
-          <div className="col-4">
+          <div className="col-md-4">
             <div className="box box-wapper">
               <img src={pole} alt="a" className="pole" />
               <p>
@@ -38,7 +38,7 @@ export default function five() {
               <span className="user-postion">Founder & Leader</span>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-md-4">
             <div className="box">
               <img src={pole} alt="a" className="pole" />
               <p>
@@ -53,7 +53,7 @@ export default function five() {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-md-4">
             <div className="box">
               <img src={pole} alt="a" className="pole" />
               <p>
@@ -70,16 +70,16 @@ export default function five() {
         </div>
         <div className="footer">
           <div className="row">
-            <div className="col-3">
+            <div className="col-md-3">
               <img src={airbnb} alt='images'/>
             </div>
-            <div className="col-3">
+            <div className="col-md-3">
             <img src={binance} alt='images'/>
             </div>
-            <div className="col-3">
+            <div className="col-md-3">
             <img src={coinbase} alt='images'/>
             </div>
-            <div className="col-3">
+            <div className="col-md-3">
             <img src={dropbox} alt='images'/>
             </div>
           </div>

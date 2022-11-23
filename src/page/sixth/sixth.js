@@ -23,7 +23,7 @@ export default function sixth() {
         </div>
 
         <div className="row footer-six">
-          <div className="col-4">
+          <div className="col-md-4">
             <div>
               <img src={mainIcon} alt="mainIcon" className="mainIcon-six" />
               <p className="title-mainIcon">
@@ -31,7 +31,7 @@ export default function sixth() {
               </p>
             </div>
           </div>
-          <div className="col-3  box-footer-six">
+          <div className="col-md-3  box-footer-six">
             <div>
               <p className="Heading-six-list useful-Links">Usefull Links</p>
               <ul>
@@ -43,7 +43,7 @@ export default function sixth() {
               </ul>
             </div>
           </div>
-          <div className="col-3 ">
+          <div className="col-md-3 ">
             <p className="Heading-six-list">Community</p>
             <ul>
               <li>Help center</li>
@@ -53,7 +53,7 @@ export default function sixth() {
               <li>Newsletters</li>
             </ul>
           </div>
-          <div className="col-2">
+          <div className="col-md-2">
             <p className="Heading-six-list">Partner</p>
             <ul>
               <li>Our partner</li>
