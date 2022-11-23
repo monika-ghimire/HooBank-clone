@@ -47,30 +47,13 @@ border: 0px;
 
 .ringOne
 {
-    width:380.29px;
-height:380.29px;
-margin-left:10%;
+ margin-left:5%;
+ margin-top:10%;
 position: relative;
 
 
 }
-/* .ringS
-{
-    width:263.29px;
-height: 263.29px;
-position: absolute;
-left:73.50%;
-margin-top:3%;
-}
-.ringT
-{
-    width:123.29px;
- height:123.29px;
- left:76.50%;
-margin-top:7%;
- position: absolute;
 
-} */
 .scanBox
 {
 
@@ -125,9 +108,8 @@ margin-left:5%;
 }
 .analysis
 {
-top:20px;
-right:50px;
-
+top:0%;
+right:3%;
 position: absolute;
   
 }
@@ -141,7 +123,7 @@ background: linear-gradient(140.32deg, #FFFFFF -277.16%, #14101D 66.28%);
 backdrop-filter: blur(5px);
 border-radius: 20px;
 top:80%;
-right:20%;
+right:13%;
 
 }
 .payment-method-icons img

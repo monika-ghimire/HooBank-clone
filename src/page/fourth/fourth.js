@@ -1,6 +1,6 @@
 import React from "react";
 import "./fourth.css";
-import ringOne from "../../assest/ringOne.png";
+import ringMain from "../../assest/ringMain.png";
 import Scan from "../../assest/Scan.png";
 import analysis from "../../assest/analysis.png";
 import paypal from "../../assest/paypal.png";
@@ -12,7 +12,7 @@ export default function fourt() {
     <>
       <div className=" fourthHolder">
         <div className="row ">
-          <div className="col-md-6">
+          <div className="col-md-7">
             <div>
               <p className="title-fourth">
                 Find a better card deal in few easy steps.
@@ -25,8 +25,8 @@ export default function fourt() {
             </div>
           </div>
 
-          <div className='col-md-6 leftScan-box'>
-          <img src={ringOne} alt='ring one ' className='ringOne' />
+          <div className='col-md-5 leftScan-box'>
+          <img src={ringMain} alt='ring one ' className='ringOne' />
             <div className="scan-box-content-holder">
             <div className='scanBox'>
               <img src={Scan} className='scan-icon' />

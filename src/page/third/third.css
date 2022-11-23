@@ -40,11 +40,12 @@ color:white;
 {
 border-radius: 10px;
 position: absolute;
-left:28%;
+left:25%;
+
 }
 .bigBox
 {
-margin-top:23.98%;
+margin-top:21.45%;
 
 }
 .appStore
@@ -54,7 +55,7 @@ margin-top:23.98%;
 .greatPaymentNoteHolder
 {
     width: 324px;
-height:50px; 
+height:40px; 
 background: #FFFFFF;
 box-shadow: 0px 10px 30px rgba(40, 48, 63, 0.25);
 border-radius: 10px;
@@ -69,7 +70,7 @@ margin-left:20%;
 .checkIcon
 {
     margin-left:5%;
-    margin-top:5%;
+    margin-top:3%;
 }
 .app-content-holder
 {
