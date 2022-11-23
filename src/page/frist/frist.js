@@ -4,7 +4,6 @@ import icon from "../../assest/icon.svg";
 import disicon from "../../assest/disicon.png";
 import Robot from "../../assest/robot.png";
 import arrow from "../../assest/arrow.png";
-import overLayRobot from "../../assest/overLayRobot.png";
 import "./frist.css";
 export default function frist() {
     return (
@@ -19,16 +18,16 @@ export default function frist() {
                             </span>
                         </div>
                     </div>
-                    <div className="col-md-1">
-                        <div className="home details">Home</div>
+                    <div className="col-md-1 Hover-Ele">
+                        <div className="home details ">Home</div>
                     </div>
-                    <div className="col-md-1">
+                    <div className="col-md-1 Hover-Ele">
                         <div className="aboutUs details">About Us</div>
                     </div>
-                    <div className="col-md-1">
+                    <div className="col-md-1 Hover-Ele">
                         <div className="Features details">Features</div>
                     </div>
-                    <div className="col-md-1">
+                    <div className="col-md-1 Hover-Ele">
                         <div className="Solution details">Solution</div>
                     </div>
                 </div>
@@ -38,25 +37,26 @@ export default function frist() {
                         <div className="col-md-7 rightContent ">
                             <div className="row">
                                 <div className="col-md-7">
-                                    <div className="discountOffers">
+                                    <div className="discountOffers ">
                                         <span>
                                             <img src={disicon} className="disIcon" />
                                         </span>
-                                        <span className="discout-title">
+                                        <span className="discout-title Hover-Ele">
                                             20% DISCOUNT FOR 1 MONTH ACCOUNT
                                         </span>
                                     </div>
                                     <div className="maintitle">
-                                        <p>The Next </p>
+                                        <p className=" Hover-Ele">The Next </p>
                 
-                                        <p className="generation">Generation</p>
-                                        <p className="titleEnd">Payment Method.</p>
+                                        <p className="generation  Hover-Ele">Generation</p>
+                                        <p className="titleEnd  Hover-Ele">Payment Method.</p>
                                     </div>
-                                    <div className="explainShorts">
+                                    <br/>
+                                    <div className=" Hover-Ele" >
                                       
-                                         <p> Our team of experts uses a methodology to identify</p>
-                                         <p> the credit cards most likely to fit your needs.</p>
-                                        <p> We examine annual percentage rates, annual fees.</p> 
+                                         <p className="explainShorts  ">  Our team of experts uses a methodology to identify</p>
+                                         <p className="explainShorts  "> the credit cards most likely to fit your needs.</p>
+                                        <p className="explainShorts  "> We examine annual percentage rates, annual fees.</p> 
                                     
                                     </div>
                                 </div>
@@ -65,7 +65,7 @@ export default function frist() {
                                         <div >
                                         <img src={Ring} alt="get started" className="ring-get-started" />
                                         <img src={arrow} alt="get started" className="arrow-icon" />
-                                        <p className="getStartedtext">Get Started</p>
+                                        <p className="getStartedtext  Hover-Ele">Get Started</p>
                                       
                                         </div>
                                     </div>
@@ -89,16 +89,16 @@ export default function frist() {
                     <div>
                         <div className=" row headFooter">
                             <div className="col-4">
-                                <span className="userActive">3800+</span>
-                                <span className="active name">User Active</span>
+                                <span className="userActive  Hover-Ele">3800+</span>
+                                <span className="active name  Hover-Ele">User Active</span>
                             </div>
                             <div className="col-4">
-                                <span className="copmpanyActive">230+</span>
-                                <span className="copmpany name">TRUSTED BY COMPANY</span>
+                                <span className="copmpanyActive  Hover-Ele">230+</span>
+                                <span className="copmpany name  Hover-Ele">TRUSTED BY COMPANY</span>
                             </div>
                             <div className="col-4">
-                                <span className="transactionActive">$230+</span>
-                                <span className="transaction name">TRANSACTION</span>
+                                <span className="transactionActive  Hover-Ele">$230+</span>
+                                <span className="transaction name  Hover-Ele">TRANSACTION</span>
                             </div>
                         </div>
                     </div>

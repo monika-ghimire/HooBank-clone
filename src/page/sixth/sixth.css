@@ -19,14 +19,15 @@ width: 90%;
 .heading-six
 {
     width: 670px;
-margin-top:8%;
+
 font-family: 'Open Sans', 'sans-ser';
 font-style: normal;
 font-weight: 600;
 font-size: 48px;
-line-height: 140%;
+line-height:100%;
 color: #faf7f7;
 margin-left:10%;
+padding-top:3%;
 
 
 }
@@ -42,6 +43,7 @@ line-height: 160%;
 letter-spacing: 0.01em;
 color: rgba(255, 255, 255, 0.7); 
 margin-left:10%;
+margin-top: 3%;
 
 
 }
@@ -107,6 +109,7 @@ line-height: 150%;
 color: rgba(255, 255, 255, 0.7);
 
 }
+
 .line
 {
    

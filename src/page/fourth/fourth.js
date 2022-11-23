@@ -26,8 +26,11 @@ export default function fourt() {
           </div>
 
           <div className='col-md-5 leftScan-box'>
-          <img src={ringMain} alt='ring one ' className='ringOne' />
-            <div className="scan-box-content-holder">
+            <div className="ring-relative-al">
+              <div className="ringOne">
+              <img src={ringMain} alt='ring one ' className='ringOne' />
+              </div>
+            
             <div className='scanBox'>
               <img src={Scan} className='scan-icon' />
               <p className='scanheading'>
@@ -37,8 +40,8 @@ export default function fourt() {
                 Scan yourcredit card in 4 minutes.
               </p>
             </div>
-            <div>
-              <img src={analysis} className='analysis' />
+            <div className='analysis'>
+              <img src={analysis}  />
             </div>
             <div className='paymentMethod'>
                 <p className='payment-method-heading'>Payment Method</p>
@@ -50,8 +53,14 @@ export default function fourt() {
                 </div>
 
               </div>
-         
             </div>
+         
+           
+           
+           
+            
+         
+          
            
            
             

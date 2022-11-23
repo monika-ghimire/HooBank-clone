@@ -2,7 +2,11 @@
   font-family: "Open Sans", "sans-ser";
 
 }
-
+.Hover-Ele:hover
+{
+    border-bottom:1px solid #33bbcf;
+ 
+}
 .heading-start {
   font-family: "Open Sans", "sans-ser";
   font-weight: 600;
@@ -84,10 +88,10 @@ width:800px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 170%;
+  line-height:100%;
   color: rgba(255, 255, 255, 0.7);
-  margin-top:10%;
-  width:auto;
+  margin-top:2%;
+  width:800px;
 }
 .rightContent
 {

@@ -9,12 +9,12 @@ export default function next() {
       <div className="containerHolder-second">
         <div className=" row ">
             <div className="col-md-7">
-            <p className="titleTop">
+            <p className="titleTop ">
             You do the business,
             <br/> we’ll handle the money.
           </p>
 
-          <p className="shortWrite">
+          <p className="shortWrite Hover-Ele">
             With the right credit card, you can improve your financial life by
             building credit, earning rewards and saving money. But with hundreds
             of credit cards on the market.
@@ -27,24 +27,24 @@ export default function next() {
           </div>
             </div>
             <div className="col-md-5 leftcontainer">
-                <div  >
+                <div className="rewards-el" >
                     <span><img src={Star} alt="start" className="alIcon"/></span>
-                    <span className="rewards">Rewards</span>
+                    <span className="rewards Hover-Ele">Rewards</span>
                     <p className="rewardExplain">
                     The best credit cards offer
                      some tantalizing combinations of promotions and prizes
                     </p>
                 </div>
-                <div className="SecuredIcon">
+                <div className="SecuredIcon rewards-el ">
                    <span> <img src={Secured} alt="Secured" className="alIcon"/></span> 
-                    <span className="rewards">100% Secured</span>
+                    <span className="rewards Hover-Ele">100% Secured</span>
                     <p className="rewardExplain">We take proactive steps make 
                     sure your information and transactions are secure.</p>
                 </div>
               
-                <div className="send" >
+                <div className="send rewards-el" >
                     <span><img  src={send} alt="send icon" className="alIcon"/></span>
-                    <span className="rewards">Balance Transfer </span>
+                    <span className="rewards Hover-Ele">Balance Transfer </span>
                     <p className="rewardExplain">
                     A balance transfer credit
                      card can save you a lot of money in interest charges

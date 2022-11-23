@@ -1,6 +1,11 @@
 *{
   font-family: 'Open Sans', 'sans-ser';
 }
+.Hover-Ele:hover
+{
+    border-bottom:1px solid #33bbcf;
+ 
+}
 .titleTop {
   /* width: 622px;
   height: 154px; */
@@ -45,6 +50,15 @@ border-radius: 10px;
     height:54px;
  
 }
+.rewards-el:hover
+{
+width: auto;
+height: 115px;
+background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
+box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+border-radius: 20px;
+margin-top:2%;
+}
 .rewards
 {
  
@@ -78,12 +92,7 @@ color: rgba(255, 255, 255, 0.7);
 
 }
 .SecuredIcon{
-width:400px;
-height: 115px;
-background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
-box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
-border-radius: 20px;
-margin-top:2%;
+
 }
 
 .SecuredImg{

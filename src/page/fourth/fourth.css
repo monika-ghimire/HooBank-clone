@@ -31,11 +31,6 @@ color: #FFFFFF;
 height: 93px;
 }
 
-
-.leftScan-box
-{
-    /* margin-left: 2%; */
-}
 .getStarted-btn
 {
     width: 170px;
@@ -44,15 +39,16 @@ background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0
 border-radius: 10px;
 border: 0px;
 }
-
+.ring-relative-al
+{
+    position: relative;
+}
 .ringOne
 {
  margin-left:5%;
  margin-top:10%;
-position: relative;
-
-
 }
+
 
 .scanBox
 {
@@ -62,10 +58,9 @@ height:130px;
 background: linear-gradient(121.51deg, #FFFFFF -264.89%, #6D6D6D -77.96%, #11101D 80.93%);
 backdrop-filter: blur(5px);
 position: absolute;
-margin-top:6%;
 border-radius: 10px;
-top:20px;
 z-index: 1;
+top: 35%;
 
 }
 .scanheading
@@ -109,8 +104,10 @@ margin-left:5%;
 .analysis
 {
 top:0%;
-right:3%;
+margin-left:40%;
 position: absolute;
+width:100%;
+height: 100%;
   
 }
 
@@ -123,7 +120,7 @@ background: linear-gradient(140.32deg, #FFFFFF -277.16%, #14101D 66.28%);
 backdrop-filter: blur(5px);
 border-radius: 20px;
 top:80%;
-right:13%;
+margin-left: 15%;
 
 }
 .payment-method-icons img
